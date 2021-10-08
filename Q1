@@ -2,6 +2,30 @@
 
 int main()
 {
+    int a;
+    printf("Enter the age:");
+    scanf("%d",&a);
+    if(a<18)
+    {
+        printf("Not eligible");
+    }
+    else
+    {
+        printf("Eligible");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
     int age,num;
     printf("Enter the age:");
     scanf("%d",&age);
@@ -18,20 +42,3 @@ int main()
 }
 
 
-#include <stdio.h>
-
-int main()
-{
-    int a;
-    printf("Enter the age:");
-    scanf("%d",&a);
-    if(a<18)
-    {
-        printf("Not eligible");
-    }
-    else
-    {
-        printf("Eligible");
-    }
-    return 0;
-}
